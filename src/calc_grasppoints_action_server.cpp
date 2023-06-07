@@ -297,7 +297,7 @@ void CCalc_Grasppoints::read_pc_cb(const haf_grasping::CalcGraspPointsServerGoal
         }
 	else
         {
-            this->base_frame_id = "/base_link";
+            this->base_frame_id = "base_link";
         }
         cout << " --> BASE_FRAME_ID: " << this->base_frame_id << endl;
 

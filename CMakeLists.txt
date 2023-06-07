@@ -24,6 +24,9 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 #find_package(OpenCV 2 REQUIRED)
+FIND_PACKAGE( OpenCV REQUIRED )
+find_package(pcl_conversions REQUIRED) 
+#TARGET_LINK_LIBRARIES( myProject ${OpenCV_LIBS} )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)

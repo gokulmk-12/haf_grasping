@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<remap from="/haf_grasping/depth_registered/single_cloud/points_in_lcs" to="/camera1/depth/color/points"/>
+	<node	
+	       name="calc_grasppoints_svm_action_client" 
+		pkg="haf_grasping" 
+		type="calc_grasppoints_action_client"
+		output="screen">        
+    	</node>
+</launch>
